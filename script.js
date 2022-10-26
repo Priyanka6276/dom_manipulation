@@ -128,7 +128,7 @@ blogPost.forEach((post) =>{
 })
 
 blogPost.forEach((post) =>{
-  post.addEventListener('mouseout', (evt) => {
+  post.addEventListener('mouseenter', (evt) => {
     evt.target.classList.toggle('red')
   })
 })
